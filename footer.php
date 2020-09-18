@@ -114,6 +114,12 @@
 		</div>
 		
 		<div class="footer_copyright">
+		        <ul class="footer_hyperlink">
+                			<a href="member_home.php"><li class="footer_hyperlink_a">HOME</li></a>
+                			<a href="member_product_list.php?page=1"><li class="footer_hyperlink_a">PRODUCT</li></a>
+                			<a href="member_about_us.php"><li class="footer_hyperlink_a">ABOUT US</li></a>
+                			<a href="member_contact_us.php"><li class="footer_hyperlink_a">CONTACT US</li></a>
+                </ul>
 				<p>Copyrights © 2018 OPTICAL X. All rights reserved</p>
 		</div>
 	</div>
