@@ -35,7 +35,7 @@ $rand=substr(rand(),0,4); //only show 4 numbers
 					<span id="gender" class="error_color"></span>
 					
 					<p class="register_form_p">Date of Birth</p>
-					<input type="date" class="register_blank" name="register_date" required>
+					<input type="date" class="register_blank" name="register_date" max=<?php echo date('Y-m-d') ?> required>
 					<span id="date" class="error_color"></span>
 					
 					<p class="register_form_p">Password</p>
@@ -137,12 +137,13 @@ function validation()
 		return false;
 	}
 	
-	if(document.register_form.register_pass.valu!=document.register_form.register_confirm_pass.value)
-	{	document.getElementById("passw").innerHTML="*Password Not Matched!";
-		document.getElementById("cpassw").innerHTML="*Confirm Password Not Matched!";
-		document.register_form.chk.focus();
-		return false;
-	}
+	//if(document.register_form.register_pass.valu!=document.register_form.register_confirm_pass.value)
+	//{	document.getElementById("passw").innerHTML="*Password Not Matched!";
+	//	document.getElementById("cpassw").innerHTML="*Confirm Password Not Matched!";
+	//	document.register_form.chk.focus();
+	//	return false;
+	//}
+	
 	
 	if(document.register_form.ran.value!=document.register_form.chk.value)
 	{
