@@ -83,8 +83,8 @@
 						
 						<div id="frame_power" class="with_frame_power">
 							<form name="frame_power_form">
-								<span class="left_power">Left Power  : <input type='text' name='left_power' size='5' class="power_detail"> </span>
-								<span class="right_power">Right Power : <input type='text' name='right_power' size='5' class="power_detail" ></span>
+								<span class="left_power">Left Power  : <input type='number' max="1000" name='left_power' size='5' class="power_detail"> </span>
+								<span class="right_power">Right Power : <input type='number' max="1000" name='right_power' size='5' class="power_detail" ></span>
 							</form>
 						</div>
 						
